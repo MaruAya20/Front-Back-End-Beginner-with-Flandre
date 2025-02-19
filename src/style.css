@@ -1,0 +1,4 @@
+body{           
+  /*借芙兰的颜色搞了个全局渐变 */
+  background: linear-gradient(to right,#e0252f,#f8d059);  
+}
