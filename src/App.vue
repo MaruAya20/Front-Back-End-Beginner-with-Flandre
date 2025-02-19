@@ -25,7 +25,7 @@ getList()
 async function getList(){
 
 const res = await axios({
-  url:"https://xpeocivgrl.bja.sealos.run/get-list",
+  url:"https://xxxxxxxxxxxxxxxxxxxx/get-list",
   method:"GET",
   //method一览：
   //GET获取 POST发送 PUT更新 DELETE删除，宾语均为服务器 
@@ -38,7 +38,7 @@ console.log(res)
 //更新List
 async function update(id){  
   await axios({   //直接请求接口
-    url:"https://xpeocivgrl.bja.sealos.run/update-todo",
+    url:"https://xxxxxxxxxxxxxxxxxxxxxxx/update-todo",
     method:"POST",
     data:{
       id,
@@ -53,7 +53,7 @@ async function add()
 {
   console.log("正在查看value值",value.value)
   await axios({
-    url: "https://xpeocivgrl.bja.sealos.run/add-todo",
+    url: "https://xxxxxxxxxxxxxxxxxxxx/add-todo",
     method:"POST",
     //传参：
     data:{
@@ -69,7 +69,7 @@ async function add()
 
 async function del(id){
   await axios({
-    url:"https://xpeocivgrl.bja.sealos.run/del-todo",
+    url:"https://xxxxxxxxxxxxxxxxxxxxxxxx/del-todo",
     method:"POST",
     data:{
       id: id,
